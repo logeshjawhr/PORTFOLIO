@@ -2,7 +2,7 @@
 
 /* Global variable declaration */
 :root{
-    --primary:#4496ed;
+    --primary:#008CBA;
     --dark-primary:#1b1f24;
 }
 
@@ -69,13 +69,15 @@ header ul li a:hover{
 
 
 /* main - section-photo section */
-
+.photo{
+    margin-left: 100px;
+}
 .photo-section{
     background-color: var(--dark-primary);
     color: white;
     display: flex;
     align-items:center ;
-    padding: 20px 0px 0px 200px;
+    padding: 150px 100px 90px 150px;
 }
 .title-name{
     font-size: 50px;
@@ -118,6 +120,7 @@ header ul li a:hover{
 .desc-section{
     color: azure;
     font-size: 18px;
+    text-align: justify;
 }
 .download-cv{
     margin-left: 20px;
@@ -133,6 +136,11 @@ header ul li a:hover{
 }
 .logesh-photo{
     border-radius: 50%;
+    border: 4px solid var(--primary);
+}
+/* photo hover */
+.logesh-photo:hover{
+    cursor: pointer;
 }
 .logos a{
     color: white;
@@ -156,6 +164,61 @@ header ul li a:hover{
 }
 
 /* Foooter */
-body{
+/* body{
     background-color: var(--dark-primary);
+} */
+
+
+/* About section */
+.about-section{
+    background-color: #22282f;
+    color: white;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-section img{
+ height: 400px;
+ width: 400px;
+ border-radius: 50%;
+ border: 5px solid var(--primary);
+ box-shadow: 3px 5px 40px var(--primary);
+}
+.about-section-div{
+    margin-left: 100px;
+    max-width: 600px;
+}
+.about-section-div h4{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-section-div ol{
+    list-style: none;
+}
+
+.details-list li{
+
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.details-list{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.details-list li strong{
+    color: white;
+}
+.about-section-div h4 span{
+    color: var(--primary);
+}
+.details-list a{
+    text-decoration: none;
+    color: gray;
+}
+/* hover for mail */
+.details-list a:hover{
+    color: var(--primary);
 }
