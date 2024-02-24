@@ -222,3 +222,71 @@ header ul li a:hover{
 .details-list a:hover{
     color: var(--primary);
 }
+
+
+/* Work Section */
+.work-section{
+    background-color: var(--dark-primary);
+    color: white;
+    padding:80px ;
+    text-align: center;
+}
+.work-section-box{
+   background-color: #22282f;
+   padding: 30px;
+   max-width: 300px;
+   text-align: left;
+   border-radius: 10px;
+  margin-right:30px ;
+   
+}
+.work-section-box:hover{
+    background-color: var(--dark-primary);
+    border: 3px solid gainsboro;
+    cursor: pointer;
+}
+.work-section-box a{
+  text-decoration: none;
+  color: wheat;
+  display: block;
+  margin-top:5px ;
+ 
+}
+.work-section-box a:hover{
+    color: rgb(242, 193, 103);
+}
+.work-section-box h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.work-section-box h4:hover{
+    color: var(--primary);
+}
+
+.work-icon{
+    background-color: var(--primary);
+    padding:15px ;
+    border-radius: 50%;
+}
+.work-section-desc{
+    margin: 20px 0px;
+}
+.work-section-desc p{
+    padding:5px 0px ;
+}
+.work-icon:hover{
+    background-color: #044358;
+}
+.work-section-container{
+    display: flex;
+    justify-content: center;
+}
+.my-works{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.my-works:hover{
+    color: var(--primary);
+   
+    
+}
