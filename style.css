@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-/* Globsl variable declaration */
+/* Global variable declaration */
 :root{
-    --primary:#3f9cff;
+    --primary:#4496ed;
     --dark-primary:#1b1f24;
 }
 
@@ -15,7 +15,7 @@
 body{
     font-family: "Nunito Sans", sans-serif;
 }
-
+/* Header section */
 header{
     background-color: var(--dark-primary);
     padding: 20px;
@@ -24,12 +24,14 @@ header{
     /* align Horizontally */
     justify-content: space-around;
 }
+/* logesh name top side */
 .logo{
     font-size: 20px;
     font-weight: bold;
     color: var(--primary);
     letter-spacing:10px;
 }
+/* remove underline in anchor tag */
 a{
     text-decoration: none;
 }
@@ -37,14 +39,15 @@ ul{
     list-style: none;
     display: flex;
 }
-ul li{
+header ul li{
     margin-right: 20px;
 }
-ul li a{
+header ul li a{
     color: white;
     text-decoration: none;
 }
-ul li a:hover{
+/* Hover effect for nav bar */
+header ul li a:hover{
     color: var(--primary);
     font-weight: 500;
 }
@@ -56,9 +59,103 @@ ul li a:hover{
     color: var(--primary);
     border-radius: 5px;
 }
+/* button hover */
 .cv:hover{
     cursor: pointer;
     background-color: var(--primary);
     color: var(--dark-primary);
 
+}
+
+
+/* main - section-photo section */
+
+.photo-section{
+    background-color: var(--dark-primary);
+    color: white;
+    display: flex;
+    align-items:center ;
+    padding: 20px 0px 0px 200px;
+}
+.title-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.title-name span{
+    color: var(--primary);
+    letter-spacing:5px ;
+}
+.hire-me , .download-cv{
+    background-color: var(--dark-primary);
+    border: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+}
+ .download-cv:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    /* color: var(--dark-primary); */
+    color: azure;
+    border: 2px solid var(--primary);
+
+}
+.hire-me:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    /* color: var(--dark-primary); */
+    color: azure;
+    border: 2px solid var(--primary);
+
+}
+.btn-main{
+    display: flex;
+    
+}
+.desc-section{
+    color: azure;
+    font-size: 18px;
+}
+.download-cv{
+    margin-left: 20px;
+}
+/* Social Icons Styli */
+.logos{
+    padding-top: 10px;
+    margin-left:1px ;
+    
+}
+.logo-list{
+    padding-left: 5px 0px;
+}
+.logesh-photo{
+    border-radius: 50%;
+}
+.logos a{
+    color: white;
+    text-decoration: none;
+}
+.logos li{
+    margin-right: 10px;
+}
+.fa-linkedin:hover{
+    color: #4496ed;
+}
+
+.fa-instagram:hover{
+   color: #cd486b ;
+}
+.fa-envelope:hover{
+    color: #BB001B;
+}
+.fa-github:hover{
+    color: #23b55b;
+}
+
+/* Foooter */
+body{
+    background-color: var(--dark-primary);
 }
