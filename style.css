@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Globsl variable declaration */
+:root{
+    --primary:#ffd23f;
+    --dark-primary:#1b1f24;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header{
+    background-color: var(--dark-primary);
+    padding: 20px;
+    color: white;
+    display: flex;
+    /* align Horizontally */
+    justify-content: space-around;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+    letter-spacing:10px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-right: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: var(--primary);
+    font-weight: 500;
+}
+.cv{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+}
+.cv:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--dark-primary);
+
+}
