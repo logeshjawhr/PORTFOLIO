@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-body{
+*{
     font-family: "Nunito Sans", sans-serif;
 }
 /* Header section */
@@ -289,4 +289,62 @@ header ul li a:hover{
     color: var(--primary);
    
     
+}
+
+
+/* Contact section */
+.contact-section{
+    background-color:#22282f ;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.contact-section h4{
+    margin: 40px 40px 20px 40px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.contact-section form input{
+    padding: 5px 10px;
+    outline:none ;
+    width: 350px;
+    border: none;
+    background-color: azure;
+}
+.contact-section h4 span{
+    color: var(--primary);
+}
+.text-area{
+    padding: 5px 10px;
+    outline:none ;
+    width: 350px;
+    border: none;
+    background-color: azure;
+    resize: none;
+    
+}
+.btn-msg{
+    padding: 10px;
+    background-color: var(--primary);
+    
+    /* border: 1px solid var(--dark-primary); */
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-msg:hover{
+    background-color:#04b2ec;
+}
+
+/* Footer--section */
+footer{
+    text-align: center;
+    background-color: var(--dark-primary);
+    padding: 20px 0;
+    font-size: 14px;
+    color: white;
+}
+footer a{
+    text-decoration:none ;
+    color: var(--primary);
 }
