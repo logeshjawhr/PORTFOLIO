@@ -15,6 +15,10 @@
 *{
     font-family: "Nunito Sans", sans-serif;
 }
+/* Scroll Behaviour */
+html{
+    scroll-behavior: smooth;
+}
 /* Header section */
 header{
     background-color: var(--dark-primary);
