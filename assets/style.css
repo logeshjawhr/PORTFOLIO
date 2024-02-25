@@ -365,14 +365,17 @@ footer a {
   .photo {
     margin-left: 5px;
     margin-top: 50px;
+    display: none;
   }
   /* Main Section---About Section */
   .about-section {
     flex-direction: column;
+    
   }
   .about-section-div {
     margin: 100px;
   }
+  
 
   /* Main Section---Work Section */
   .work-section-container {
