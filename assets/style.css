@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* Global variable declaration */
 :root {
-  --primary: #40A2D8;
+  --primary: #edc40d;
   --dark-primary: #1b1f24;
 }
 /* Universal */
@@ -13,7 +14,8 @@
 }
 /* Font--FAmily */
 * {
-  font-family: "Nunito Sans", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 /* Scroll Behaviour */
 html {
@@ -21,13 +23,17 @@ html {
 }
 /* Header section */
 header {
-  background-color: var(--dark-primary);
+  background-color: #344955;
   padding: 20px;
   color: white;
+  /* height: 50px; */
   display: flex;
   /* align Horizontally */
   justify-content: space-around;
+  /* position: sticky;
+  top:0; */
 }
+
 
 /* logesh name top side */
 .logo {
@@ -60,7 +66,8 @@ header ul li a:hover {
 .cv {
   padding: 10px 20px;
   font-weight: bold;
-  background-color: var(--dark-primary);
+  /* background-color: var(--dark-primary); */
+  background-color: #344955;
   border: 3px solid var(--primary);
   color: var(--primary);
   border-radius: 5px;
@@ -106,16 +113,28 @@ header ul li a:hover {
 .download-cv:hover {
   cursor: pointer;
   background-color: var(--primary);
-  /* color: var(--dark-primary); */
-  color: azure;
+  color: var(--dark-primary);
+  /* color: azure; */
   border: 2px solid var(--primary);
 }
 .hire-me:hover {
   cursor: pointer;
   background-color: var(--primary);
-  /* color: var(--dark-primary); */
-  color: azure;
+  color: var(--dark-primary);
+  /* color: azure; */
   border: 2px solid var(--primary);
+}
+.hire-me a{
+    color: white;
+}
+.hire-me a:hover{
+    color: var(--dark-primary);
+}
+.download-cv a{
+    color: white;
+}
+.download-cv a:hover{
+    color: var(--dark-primary);
 }
 /* Btn Display */
 .btn-main {
@@ -134,8 +153,8 @@ header ul li a:hover {
   padding-top: 10px;
   margin-left: 1px;
 }
-.logo-list {
-  padding-left: 5px 0px;
+.social-icons{
+    padding-right: 25px;
 }
 .logesh-photo {
   border-radius: 50%;
@@ -221,7 +240,22 @@ header ul li a:hover {
 .details-list a:hover {
   color: var(--primary);
 }
-
+.know-more {
+    padding: 10px 20px;
+    font-weight: bold;
+    /* background-color: var(--dark-primary); */
+    background-color: var(--dark-primary);
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+  }
+  /* button hover */
+  .know-more:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--dark-primary);
+  }
+ 
 /* Work Section */
 .work-section {
   background-color: var(--dark-primary);
@@ -320,6 +354,7 @@ header ul li a:hover {
 }
 .btn-msg {
   padding: 10px;
+  margin: 10px;
   background-color: var(--primary);
 
   /* border: 1px solid var(--dark-primary); */
@@ -328,7 +363,7 @@ header ul li a:hover {
   border-radius: 5px;
 }
 .btn-msg:hover {
-  background-color: #04b2ec;
+  background-color: #e6ff2d;
 }
 
 /* Footer--section */
@@ -371,9 +406,26 @@ footer a {
   .about-section {
     flex-direction: column;
     
+    
   }
   .about-section-div {
     margin: 100px;
+    
+  }
+  .details-list{
+    /* padding: 2px 10px; */
+    display: inline;
+  }
+  .know-more {
+    padding: 10px 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: bold;
+    /* background-color: var(--dark-primary); */
+    background-color: var(--dark-primary);
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
   }
   
 
